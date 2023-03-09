@@ -1,0 +1,60 @@
+---
+---
+
+.portrait-wrapper {
+  display: contents;
+}
+
+.portrait {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  margin: 20px;
+  width: 175px;
+  max-width: 100%;
+  text-decoration: none;
+}
+
+.portrait[data-style="small"] {
+  width: 100px;
+}
+
+.portrait[data-style="tiny"] {
+  flex-direction: row;
+  gap: 15px;
+  width: unset;
+  text-align: left;
+}
+
+.portrait-image {
+  aspect-ratio: 1 / 1;
+  border-radius: 999px;
+  object-fit: cover;
+  box-shadow: var(--shadow);
+}
+
+.portrait[data-style="tiny"] .portrait-image {
+  width: 50px;
+}
+
+.portrait[data-style="small"] .portrait-role,
+.portrait[data-style="tiny"] .portrait-role {
+  display: none;
+}
+
+.portrait-text {
+  display: flex;
+  flex-direction: column;
+  line-height: calc(var(--spacing) - 0.4);
+}
+
+.portrait-name {
+  font-family: var(--heading);
+  font-weight: var(--semi-bold);
+}
+
+.portrait-role .icon {
+  margin-right: 0.5em;
+}
