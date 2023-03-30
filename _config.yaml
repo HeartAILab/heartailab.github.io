@@ -5,7 +5,7 @@ description: An easy-to-use, flexible website template for labs, with automatic 
 header: false
 footer: false
 header-dark: false
-footer-dark: false
+footer-dark: true
 
 # site social media and other links
 links:
