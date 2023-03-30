@@ -1,9 +1,9 @@
 # site properties and page defaults
-title: Lab Website Template
-subtitle: by the Greene Lab
+title: HEart Ai Lab (HEAL)
+subtitle: false
 description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
-header: images/background.jpg
-footer: images/background.jpg
+header: false
+footer: false
 
 # site social media and other links
 links:
