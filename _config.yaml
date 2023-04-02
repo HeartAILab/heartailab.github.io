@@ -4,7 +4,7 @@ subtitle: false
 description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
 header: false
 footer: false
-header-dark: false
+header-dark: true
 footer-dark: true
 
 # site social media and other links
