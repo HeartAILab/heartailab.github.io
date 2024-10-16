@@ -1,8 +1,8 @@
 ---
-name: John Doe
+name: Michele Esposito
 image: images/photo.jpg
-role: phd
-group: alum
+role: co-i
+group: 
 links:
   github: john-doe
 ---
