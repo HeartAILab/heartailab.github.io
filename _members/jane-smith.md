@@ -1,10 +1,8 @@
 ---
-name: Jane Smith
+name: Ramsey Wehbe
 image: images/photo.jpg
-role: pi
+role: PI
 aliases:
-  - J. Smith
-  - J Smith
 links:
   home-page: https://janesmith.com
   orcid: 0000-0001-8713-9213
