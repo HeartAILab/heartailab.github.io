@@ -47,7 +47,8 @@ for plugin in plugins:
             data = load_data(file)
             # check if file in correct format
             if not list_of_dicts(data):
-                raise Exception("File not a list of dicts")
+                log(f"Warning: {file.name} is not a list of dicts. Skipping file.", 2, "WARNING")
+                continue  # Skip this file but do not raise an error
         except Exception as e:
             log(e, 2, "ERROR")
             error = True
@@ -62,7 +63,8 @@ for plugin in plugins:
                 entry = import_module(f"plugins.{plugin.stem}").main(entry)
                 # check that plugin returned correct format
                 if not list_of_dicts(entry):
-                    raise Exception("Plugin didn't return list of dicts")
+                    log(f"Warning: Plugin did not return a list of dicts. Skipping file.", 2, "WARNING")
+                continue  # Skip this file but do not raise an error
             except Exception as e:
                 log(e, 3, "ERROR")
                 error = True
