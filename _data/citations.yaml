@@ -1,3 +1,601 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-[]
+- id: eid:2-s2.0-85192468739
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1016/j.ijcard.2024.132115
+  title: Accuracy and consistency of online large language model-based artificial
+    intelligence chat platforms in answering patients' questions about heart failure
+  authors:
+  - Elie Kozaily
+  - Mabelissa Geagea
+  - Ecem R. Akdogan
+  - Jessica Atkins
+  - Mohamed B. Elshazly
+  - Maya Guglin
+  - Ryan J. Tedford
+  - Ramsey M. Wehbe
+  publisher: International Journal of Cardiology
+  date: '2024-08-01'
+  link: https://doi.org/g8k2dn
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85189531905
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1007/s00392-024-02433-2
+  title: 'Performance of risk models to predict mortality risk for patients with heart
+    failure: evaluation in an integrated health system'
+  authors:
+  - Faraz S. Ahmad
+  - Ted Ling Hu
+  - Eric D. Adler
+  - Lucia C. Petito
+  - Ramsey M. Wehbe
+  - Jane E. Wilcox
+  - R. Kannan Mutharasan
+  - Beatrice Nardone
+  - Matevz Tadel
+  - Barry Greenberg
+  - Avi Yagil
+  - Claudio Campagnari
+  publisher: Clinical Research in Cardiology
+  date: '2024-04-02'
+  link: https://doi.org/g8k2dp
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.48550/arXiv.2301.11847
+  title: A Comparative Study of Pretrained Language Models for Long Clinical Text
+  authors:
+  - Yikuan Li
+  - Ramsey M. Wehbe
+  - Faraz S. Ahmad
+  - Hanyin Wang
+  - Yuan Luo
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/g8k2dq
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85147386430
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1093/jamia/ocac225
+  title: A comparative study of pretrained language models for long clinical text
+  authors:
+  - Yikuan Li
+  - Ramsey M Wehbe
+  - Faraz S Ahmad
+  - Hanyin Wang
+  - Yuan Luo
+  publisher: Journal of the American Medical Informatics Association
+  date: '2022-11-30'
+  link: https://doi.org/gr6zc8
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85144762262
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1101/2023.09.12.23295452
+  title: "Accuracy and Consistency of Online Chat-based Artificial Intelligence Platforms\
+    \ in Answering Patients\u2019 Questions About Heart Failure"
+  authors:
+  - Elie Kozaily
+  - Mabelissa Geagea
+  - Ecem Raziye Akdogan
+  - Jessica Atkins
+  - Mohamed B. Elshazly
+  - Maya Guglin
+  - Ryan J Tedford
+  - Ramsey M. Wehbe
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-09-13'
+  link: https://doi.org/g8k2ds
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85174791471
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1093/jamia/ocad016
+  title: Could an artificial intelligence approach to prior authorization be more
+    human?
+  authors:
+  - Leslie A Lenert
+  - Steven Lane
+  - Ramsey Wehbe
+  publisher: Journal of the American Medical Informatics Association
+  date: '2023-02-21'
+  link: https://doi.org/g8k2dt
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85152974698
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: eid:2-s2.0-85176413208
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1001/jamacardio.2023.3142
+  title: Deep Learning for Cardiovascular Imaging
+  authors:
+  - Ramsey M. Wehbe
+  - Aggelos K. Katsaggelos
+  - Kristian J. Hammond
+  - Ha Hong
+  - Faraz S. Ahmad
+  - David Ouyang
+  - Sanjiv J. Shah
+  - Patrick M. McCarthy
+  - James D. Thomas
+  publisher: JAMA Cardiology
+  date: '2023-11-01'
+  link: https://doi.org/gtc4km
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/bioengineering10050556
+  title: 'DeepCOVID-Fuse: A Multi-Modality Deep Learning Model Fusing Chest X-rays
+    and Clinical Variables to Predict COVID-19 Risk Levels'
+  authors:
+  - Yunan Wu
+  - Amil Dravid
+  - Ramsey Michael Wehbe
+  - Aggelos K. Katsaggelos
+  publisher: Bioengineering
+  date: '2023-05-05'
+  link: https://doi.org/g8k2dv
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85160794731
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.48550/arXiv.2301.08798
+  title: 'DeepCOVID-Fuse: A Multi-modality Deep Learning Model Fusing Chest X-Radiographs
+    and Clinical Variables to Predict COVID-19 Risk Levels'
+  authors:
+  - Yunan Wu
+  - Amil Dravid
+  - Ramsey Michael Wehbe
+  - Aggelos K. Katsaggelos
+  publisher: arXiv
+  date: '2023-01-01'
+  link: https://doi.org/g8k2dw
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85146885855
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1016/j.echo.2023.08.012
+  title: "Echoing Errors: The Problem of Uncurated \u201CBig Data\u201D in Echocardiography"
+  authors:
+  - Ramsey M. Wehbe
+  publisher: Journal of the American Society of Echocardiography
+  date: '2023-11-01'
+  link: https://doi.org/g8k2dx
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85172018089
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: eid:2-s2.0-85165100427
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1101/2023.06.23.23291822
+  title: 'Performance of Risk Models to Predict Mortality Risk for Patients with Heart
+    Failure: Evaluation in an Integrated Health System'
+  authors:
+  - Faraz S. Ahmad
+  - Ted Ling Hu
+  - Eric D. Adler
+  - Lucia C. Petito
+  - Ramsey M. Wehbe
+  - Jane E. Wilcox
+  - R. Kannan Mutharasan
+  - Beatrice Nardone
+  - Matevz Tadel
+  - Barry Greenberg
+  - Avi Yagil
+  - Claudio Campagnari
+  publisher: Cold Spring Harbor Laboratory
+  date: '2023-06-25'
+  link: https://doi.org/g8k2dz
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85136715128
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1001/jamacardio.2022.1781
+  title: A Simple Score to Identify Increased Risk of Transthyretin Amyloid Cardiomyopathy
+    in Heart Failure With Preserved Ejection Fraction
+  authors:
+  - Daniel R. Davies
+  - Margaret M. Redfield
+  - Christopher G. Scott
+  - Masatoshi Minamisawa
+  - Martha Grogan
+  - Angela Dispenzieri
+  - Panithaya Chareonthaitawee
+  - Amil M. Shah
+  - Sanjiv J. Shah
+  - Ramsey M. Wehbe
+  - Scott D. Solomon
+  - Yogesh N. V. Reddy
+  - Barry A. Borlaug
+  - Omar F. AbouEzzeddine
+  publisher: JAMA Cardiology
+  date: '2022-10-01'
+  link: https://doi.org/gsn9d4
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85125705723
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1016/j.hfc.2021.12.002
+  title: Advances in Machine Learning Approaches to Heart Failure with Preserved Ejection
+    Fraction
+  authors:
+  - Faraz S. Ahmad
+  - Yuan Luo
+  - Ramsey M. Wehbe
+  - James D. Thomas
+  - Sanjiv J. Shah
+  publisher: Heart Failure Clinics
+  date: '2022-04-01'
+  link: https://doi.org/gs9dhg
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85170914232
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.48550/arxiv.2201.11838
+  title: 'Clinical-Longformer and Clinical-BigBird: Transformers for long clinical
+    sequences'
+  authors:
+  - Yikuan Li
+  - Ramsey M. Wehbe
+  - Faraz S. Ahmad
+  - Hanyin Wang
+  - Yuan Luo
+  publisher: arXiv
+  date: '2022-01-01'
+  link: https://doi.org/g8k2d3
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1097/MAT.0000000000001691
+  title: Hyponatremia Is a Powerful Predictor of Poor Prognosis in Left Ventricular
+    Assist Device Patients
+  authors:
+  - Anjan Tibrewala
+  - Ramsey M. Wehbe
+  - Tingqing Wu
+  - Rebecca Harap
+  - Kambiz Ghafourian
+  - Jane E. Wilcox
+  - Ike S. Okwuosa
+  - Esther E. Vorovich
+  - Faraz S. Ahmad
+  - Clyde Yancy
+  - Amit Pawale
+  - Allen S. Anderson
+  - Duc T. Pham
+  - Jonathan D. Rich
+  publisher: ASAIO Journal
+  date: '2022-11-28'
+  link: https://doi.org/g8k2d4
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85143473397
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: eid:2-s2.0-85099066151
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1007/s12350-020-02467-9
+  title: Incidental detection of ATTR cardiac amyloidosis
+  authors:
+  - Jessica A. Quaggin-Smith
+  - Ramsey M. Wehbe
+  - Thomas A. Holly
+  publisher: Journal of Nuclear Cardiology
+  date: '2022-06-01'
+  link: https://doi.org/gr3qsx
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1161/CIRCHEARTFAILURE.121.009278
+  title: 'Unleashing the Power of Machine Learning to Predict Myocardial Recovery
+    After Left Ventricular Assist Device: A Call for the Inclusion of Unstructured
+    Data Sources in Heart Failure Registries'
+  authors:
+  - Ramsey M. Wehbe
+  publisher: 'Circulation: Heart Failure'
+  date: '2022-01-01'
+  link: https://doi.org/g8k2d6
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85123812716
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1001/jamacardio.2022.0193
+  title: "Validating Deep Learning to Distinguish Takotsubo Syndrome From Acute Myocardial\
+    \ Infarction\u2014Beware of Shortcuts, Human Supervision Required"
+  authors:
+  - Ramsey M. Wehbe
+  - James D. Thomas
+  publisher: JAMA Cardiology
+  date: '2022-05-01'
+  link: https://doi.org/gpv88b
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85128506053
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1007/s12350-020-02094-4
+  title: 'Cases from a busy nuclear cardiology laboratory: Potential pitfalls in the
+    interpretation of cardiac scintigraphy for ATTR cardiac amyloidosis'
+  authors:
+  - Ramsey M. Wehbe
+  - Preeti Kansal
+  - Thomas A. Holly
+  publisher: Journal of Nuclear Cardiology
+  date: '2021-04-01'
+  link: https://doi.org/g8k2d7
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85085129758
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: eid:2-s2.0-85102168165
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1148/RADIOL.2020203511
+  title: 'DeepCOVID-XR: An Artificial Intelligence Algorithm to Detect COVID-19                     on
+    Chest Radiographs Trained and Tested on a Large U.S. Clinical Data                     Set'
+  authors:
+  - Ramsey M. Wehbe
+  - Jiayue Sheng
+  - Shinjan Dutta
+  - Siyuan Chai
+  - Amil Dravid
+  - Semih Barutcu
+  - Yunan Wu
+  - Donald R. Cantrell
+  - Nicholas Xiao
+  - Bradley D. Allen
+  - Gregory A. MacNealy
+  - Hatice Savas
+  - Rishi Agrawal
+  - Nishant Parekh
+  - Aggelos K. Katsaggelos
+  publisher: Radiology
+  date: '2021-04-01'
+  link: https://doi.org/ghr8q5
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.case.2020.04.005
+  title: 'A Left Atrial Thrombus Mimic: Value of Ultrasound Enhancing Agents during
+    Transesophageal Echocardiography'
+  authors:
+  - Ramsey M. Wehbe
+  - Vera H. Rigolin
+  publisher: CASE
+  date: '2020-08-01'
+  link: https://doi.org/g8k2d8
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.hfc.2020.05.002
+  title: Predicting High-Risk Patients and High-Risk Outcomes in Heart Failure
+  authors:
+  - Ramsey M. Wehbe
+  - Sadiya S. Khan
+  - Sanjiv J. Shah
+  - Faraz S. Ahmad
+  publisher: Heart Failure Clinics
+  date: '2020-10-01'
+  link: https://doi.org/ghk44f
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85087112758
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: eid:2-s2.0-85069679272
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1016/j.jchf.2019.04.017
+  title: Sex Differences in Outcomes of LVAD Patients Bridged to Transplant
+  authors:
+  - Ramsey M. Wehbe
+  - Allen S. Anderson
+  publisher: 'JACC: Heart Failure'
+  date: '2019-08-01'
+  link: https://doi.org/g8k2d9
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-85034644309
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1001/jamacardio.2017.3089
+  title: Targeting the Correct Population When Designing Transitional Care Programs
+    for Medicare Patients Hospitalized With Heart Failure
+  authors:
+  - Faraz S. Ahmad
+  - Ramsey M. Wehbe
+  - Preeti Kansal
+  - Hannah A. Jackson
+  - Allen S. Anderson
+  - Clyde W. Yancy
+  - R. Kannan Mutharasan
+  publisher: JAMA Cardiology
+  date: '2017-11-01'
+  link: https://doi.org/gnwh59
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-84982937944
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.14503/THIJ-16-5785
+  title: 'Underuse of Oral Anticoagulants for Nonvalvular Atrial Fibrillation: Past,
+    Present, and Future'
+  authors:
+  - Ramsey M. Wehbe
+  - Ajay Yadlapati
+  publisher: Texas Heart Institute Journal
+  date: '2016-08-01'
+  link: https://doi.org/g8k2fb
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.17987/icfj.v3i0.99
+  title: Technology and Its Influence on the Doctor-Patient Relationship
+  authors:
+  - Ramsay Wehbe
+  - Eric Curcio
+  - Mark Gajjar
+  - Ajay Yadlapati
+  publisher: International Cardiovascular Forum Journal
+  date: '2015-09-03'
+  link: https://doi.org/g8k2fc
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+- id: eid:2-s2.0-66349131898
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
+  date: ''
+- id: doi:10.1002/ajmg.a.32840
+  title: 'When to tell and test for genetic carrier status: Perspectives of adolescents
+    and young adults from fragile X families'
+  authors:
+  - Ramsey M. Wehbe
+  - Gail A. Spiridigliozzi
+  - Elizabeth M. Heise
+  - Deborah V. Dawson
+  - "Allyn McConkie\u2010Rosell"
+  publisher: American Journal of Medical Genetics Part A
+  date: '2009-05-15'
+  link: https://doi.org/fd7drq
+  orcid: 0000-0003-0599-7957
+  ramsey-wehbe: true
+  plugin: orcid.py
+  file: orcid.yaml
