@@ -34,18 +34,6 @@ jobs:
 
       - name: Get Pages url
         id: pages
-<<<<<<< HEAD
-        uses: actions/configure-pages@v2
-        with:
-          enablement: false
-
-      - name: Build live version of site
-        run: |
-          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path || '' }}"
-
-      - name: Commit live site to Pages branch
-        uses: JamesIves/github-pages-deploy-action@v4
-=======
         uses: actions/configure-pages@v4
 
       # for debugging
@@ -62,7 +50,6 @@ jobs:
 
       - name: Commit live site to Pages branch
         uses: JamesIves/github-pages-deploy-action@v4.5.0
->>>>>>> template/main
         with:
           folder: _site
           clean-exclude: ${{ env.PREVIEWS_FOLDER }}
