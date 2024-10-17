@@ -23,8 +23,8 @@ log("Compiling sources")
 sources = []
 
 # in-order list of plugins to run
-plugins = ["google-scholar", "pubmed", "orcid",
-        #    "sources",
+plugins = ["google-scholar", "pubmed", "orcid", 
+        #    "sources"
            ]
 
 # loop through plugins
@@ -49,8 +49,7 @@ for plugin in plugins:
             data = load_data(file)
             # check if file in correct format
             if not list_of_dicts(data):
-                log(f"Warning: {file.name} is not a list of dicts. Skipping file.", 2, "WARNING")
-                continue  # Skip this file but do not raise an error
+                raise Exception("File not a list of dicts")
         except Exception as e:
             log(e, 2, "ERROR")
             error = True
@@ -65,8 +64,7 @@ for plugin in plugins:
                 entry = import_module(f"plugins.{plugin.stem}").main(entry)
                 # check that plugin returned correct format
                 if not list_of_dicts(entry):
-                    log(f"Warning: Plugin did not return a list of dicts. Skipping file.", 2, "WARNING")
-                continue  # Skip this file but do not raise an error
+                    raise Exception("Plugin didn't return list of dicts")
             except Exception as e:
                 log(e, 3, "ERROR")
                 error = True
