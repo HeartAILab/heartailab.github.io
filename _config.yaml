@@ -1,13 +1,10 @@
-# site properties and page defaults
-title: false
+title: HeartAILab
 subtitle: false
-description: An easy-to-use, flexible website template for labs, with automatic citations, GitHub tag imports, pre-built components, and more.
+description: An engaging 1-3 sentence description of your lab.
 header: false
 footer: false
 header-dark: true
 footer-dark: true
-
-# site social media and other links
 links:
   email: contact@your-lab.com
   orcid: 0000-0001-8713-9213
@@ -16,60 +13,43 @@ links:
   twitter: YourLabHandle
   instagram: YourLabHandle
   youtube: YourLabChannel
-
-### jekyll settings
-
-# front matter defaults
 defaults:
-  # all markdown files
   - scope:
       path: ""
     values:
       layout: default
-  # markdown files in /_members
   - scope:
-      type: "members"
+      type: members
     values:
       layout: member
-  # markdown files in /_posts
   - scope:
-      type: "posts"
+      type: posts
     values:
       layout: post
-
 collections:
-  # generate page for each member
   members:
     output: true
-  # generate page for each post
   posts:
     output: true
-
-# jekyll plugins
 plugins:
   - jekyll-spaceship
   - jekyll-sitemap
   - jekyll-redirect-from
   - jekyll-feed
   - jekyll-last-modified-at
-
-# code block syntax highlighting
 highlighter: rouge
-
-# jekyll theme
 theme: null
-
-# sass settings
 sass:
   sass_dir: _styles
-
-# force jekyll to include certain files/folders
 include:
   - _styles
   - _scripts
-
-# force jekyll to exclude certain files/folders
 exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+email: contact@HeartAILab.com
+github: HeartAILab
+twitter: HeartAILab
+instagram: HeartAILab
+youtube: HeartAILab
