@@ -1,11 +1,5 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
 
-- id: eid:2-s2.0-85192468739
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1016/j.ijcard.2024.132115
   title: Accuracy and consistency of online large language model-based artificial
     intelligence chat platforms in answering patients' questions about heart failure
@@ -25,12 +19,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85189531905
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1007/s00392-024-02433-2
   title: 'Performance of risk models to predict mortality risk for patients with heart
     failure: evaluation in an integrated health system'
@@ -69,12 +57,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85147386430
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1093/jamia/ocac225
   title: A comparative study of pretrained language models for long clinical text
   authors:
@@ -90,12 +72,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85144762262
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1101/2023.09.12.23295452
   title: "Accuracy and Consistency of Online Chat-based Artificial Intelligence Platforms\
     \ in Answering Patients\u2019 Questions About Heart Failure"
@@ -115,12 +91,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85174791471
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1093/jamia/ocad016
   title: Could an artificial intelligence approach to prior authorization be more
     human?
@@ -135,18 +105,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85152974698
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
-- id: eid:2-s2.0-85176413208
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1001/jamacardio.2023.3142
   title: Deep Learning for Cardiovascular Imaging
   authors:
@@ -181,12 +139,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85160794731
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.48550/arXiv.2301.08798
   title: 'DeepCOVID-Fuse: A Multi-modality Deep Learning Model Fusing Chest X-Radiographs
     and Clinical Variables to Predict COVID-19 Risk Levels'
@@ -202,12 +154,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85146885855
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1016/j.echo.2023.08.012
   title: "Echoing Errors: The Problem of Uncurated \u201CBig Data\u201D in Echocardiography"
   authors:
@@ -219,18 +165,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85172018089
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
-- id: eid:2-s2.0-85165100427
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1101/2023.06.23.23291822
   title: 'Performance of Risk Models to Predict Mortality Risk for Patients with Heart
     Failure: Evaluation in an Integrated Health System'
@@ -254,12 +188,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85136715128
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1001/jamacardio.2022.1781
   title: A Simple Score to Identify Increased Risk of Transthyretin Amyloid Cardiomyopathy
     in Heart Failure With Preserved Ejection Fraction
@@ -285,12 +213,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85125705723
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1016/j.hfc.2021.12.002
   title: Advances in Machine Learning Approaches to Heart Failure with Preserved Ejection
     Fraction
@@ -307,12 +229,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85170914232
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.48550/arxiv.2201.11838
   title: 'Clinical-Longformer and Clinical-BigBird: Transformers for long clinical
     sequences'
@@ -354,18 +270,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85143473397
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
-- id: eid:2-s2.0-85099066151
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1007/s12350-020-02467-9
   title: Incidental detection of ATTR cardiac amyloidosis
   authors:
@@ -392,12 +296,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85123812716
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1001/jamacardio.2022.0193
   title: "Validating Deep Learning to Distinguish Takotsubo Syndrome From Acute Myocardial\
     \ Infarction\u2014Beware of Shortcuts, Human Supervision Required"
@@ -411,12 +309,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85128506053
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1007/s12350-020-02094-4
   title: 'Cases from a busy nuclear cardiology laboratory: Potential pitfalls in the
     interpretation of cardiac scintigraphy for ATTR cardiac amyloidosis'
@@ -431,18 +323,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85085129758
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
-- id: eid:2-s2.0-85102168165
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1148/RADIOL.2020203511
   title: 'DeepCOVID-XR: An Artificial Intelligence Algorithm to Detect COVID-19                     on
     Chest Radiographs Trained and Tested on a Large U.S. Clinical Data                     Set'
@@ -496,18 +376,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85087112758
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
-- id: eid:2-s2.0-85069679272
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1016/j.jchf.2019.04.017
   title: Sex Differences in Outcomes of LVAD Patients Bridged to Transplant
   authors:
@@ -520,12 +388,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-85034644309
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1001/jamacardio.2017.3089
   title: Targeting the Correct Population When Designing Transitional Care Programs
     for Medicare Patients Hospitalized With Heart Failure
@@ -544,12 +406,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-84982937944
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.14503/THIJ-16-5785
   title: 'Underuse of Oral Anticoagulants for Nonvalvular Atrial Fibrillation: Past,
     Present, and Future'
@@ -577,12 +433,6 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
-- id: eid:2-s2.0-66349131898
-  orcid: 0000-0003-0599-7957
-  ramsey-wehbe: true
-  plugin: orcid.py
-  file: orcid.yaml
-  date: ''
 - id: doi:10.1002/ajmg.a.32840
   title: 'When to tell and test for genetic carrier status: Perspectives of adolescents
     and young adults from fragile X families'
@@ -599,3 +449,61 @@
   ramsey-wehbe: true
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1371/journal.pcbi.1007128
+  title: Open collaborative writing with Manubot
+  authors:
+  - Daniel S. Himmelstein
+  - Vincent Rubinetti
+  - David R. Slochower
+  - Dongbo Hu
+  - Venkat S. Malladi
+  - Casey S. Greene
+  - Anthony Gitter
+  publisher: PLOS Computational Biology
+  date: '2020-12-04'
+  link: https://doi.org/c7np
+  type: paper
+  description: Lorem ipsum _dolor_ **sit amet**, consectetur adipiscing elit, sed
+    do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+  image: https://journals.plos.org/ploscompbiol/article/figure/image?size=inline&id=info:doi/10.1371/journal.pcbi.1007128.g001&rev=2
+  buttons:
+  - type: manubot
+    link: https://greenelab.github.io/meta-review/
+  - type: source
+    text: Manuscript Source
+    link: https://github.com/greenelab/meta-review
+  - type: website
+    link: http://manubot.org/
+  tags:
+  - open science
+  - collaboration
+  repo: greenelab/meta-review
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.1016/j.csbj.2020.05.017
+  title: Constructing knowledge graphs and their biomedical applications
+  authors:
+  - David N. Nicholson
+  - Casey S. Greene
+  publisher: Computational and Structural Biotechnology Journal
+  date: '2020-01-01'
+  link: https://doi.org/gg7m48
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2001037020302804-gr1.jpg
+  plugin: sources.py
+  file: sources.yaml
+- id: doi:10.7554/eLife.32822
+  title: Sci-Hub provides access to nearly all scholarly literature
+  authors:
+  - Daniel S Himmelstein
+  - Ariel Rodriguez Romero
+  - Jacob G Levernier
+  - Thomas Anthony Munro
+  - Stephen Reid McLaughlin
+  - Bastian Greshake Tzovaras
+  - Casey S Greene
+  publisher: eLife
+  date: '2018-03-01'
+  link: https://doi.org/ckcj
+  image: https://iiif.elifesciences.org/lax:32822%2Felife-32822-fig8-v3.tif/full/863,/0/default.webp
+  plugin: sources.py
+  file: sources.yaml
