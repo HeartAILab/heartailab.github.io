@@ -14,13 +14,12 @@ Our team consists of talented multidisciplinary researchers across cardiovascula
 {% include list.html data="members" component="portrait" filters="role: pi, group: " %}
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$), group: " %}
 
-{% include section.html background="images/background.jpg" dark=true %}
+{% include section.html background=black dark=true %}
 
 We are growing and we are always looking for talented, motivated, and driven students, residents, fellows, and post-docs to innovate with us. Feel free to reach out if you are interested in joining!
 
-
-## Alumni
 {% include section.html %}
+## Alumni
 
 {% include list.html data="members" component="portrait" filters="role: pi, group: alumni" %}
 {% include list.html data="members" component="portrait" filters="role: ^(?!pi$), group: alumni" %}

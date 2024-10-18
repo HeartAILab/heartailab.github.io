@@ -10,6 +10,14 @@ co-i:
   icon: fa-solid fa-microscope
   description: Co-Investigator
 
+fellow:
+  icon: fa-solid fa-glasses
+  description: Fellow
+
+resident:
+  icon: fa-solid fa-glasses
+  description: Resident
+
 postdoc:
   icon: fa-solid fa-glasses
   description: Postdoctoral Researcher
@@ -17,14 +25,6 @@ postdoc:
 medstudent:
   icon: fa-solid fa-user-graduate
   description: Medical Student
-
-resident:
-  icon: fa-solid fa-glasses
-  description: Resident
-
-fellow:
-  icon: fa-solid fa-glasses
-  description: Fellow
 
 phd:
   icon: fa-solid fa-graduation-cap
