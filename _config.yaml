@@ -4,8 +4,10 @@ subtitle:
 description: website for HEAL lab
 show-title: false
 show-subtitle: false
-header: images/background.jpg
-footer: images/background.jpg
+header: black
+footer: black
+header-dark: true
+footer-dark: true
 proofer: false
 
 # site social media and other links
