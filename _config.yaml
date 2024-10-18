@@ -2,18 +2,19 @@
 title: HEart Ai Lab (HEAL)
 subtitle: 
 description: website for HEAL lab
+show-title: false
+show-subtitle: false
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
 
 # site social media and other links
 links:
-  email: contact@your-lab.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
-  github: your-lab
-  twitter: YourLabHandle
-  youtube: YourLabChannel
+  orcid: 0000-0003-0599-7957
+  google-scholar: tvZG4-UAAAAJ
+  github: https://github.com/HeartAILab
+  twitter: ramseywehbemd
+
 
 ### jekyll settings
 

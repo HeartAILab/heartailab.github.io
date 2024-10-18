@@ -1,5 +1,6 @@
 ---
 title: We're Hiring!
+image: images/photo.jpg
 author: ramsey-wehbe
 tags:
   - job
