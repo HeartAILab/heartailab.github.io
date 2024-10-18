@@ -1,9 +1,9 @@
 ---
 ---
 
-# HeartAILab's Website
+# **HE**art **A**i **L**ab (HEAL)
 
-An engaging 1-3 sentence description of your lab.
+The HEAL lab is a team of researchers in the Division of Cardiology at the Medical University of South Carolina dedicated to using artificial intelligence to improve the health of patients living with cardiovascular disease. Our focus is bridging the gap between the engineering sciences and cardiovascular care, including innovative approaches to the analysis of unstructured data (imaging, clinical notes, ECG/waveforms) using state-of-the-art machine learning/deep learning algorithms in the diagnosis and management of heart failure. HEAL boasts a large and expanding program of both collaborative and internal research.
 
 {% include section.html %}
 
@@ -11,7 +11,7 @@ An engaging 1-3 sentence description of your lab.
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our research focus in on leveraging deep learning to analyze unstructured data sets in cardiology (and medicine in general). 
 
 {%
   include button.html
@@ -34,7 +34,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+We have many exciting ongoing projects, please reach out if you'd be interested in collaborating.
 
 {%
   include button.html
@@ -59,7 +59,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {% capture text %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+Our team is still growing and we are always looking for talented students and post-docs to join us on our journey.
 
 {%
   include button.html
