@@ -1,6 +1,6 @@
 ---
 name: Michele Esposito, MD
-image: images/team/esposito_headshot.jpg
+image: images/team/Esposito_headshot.jpg
 role: co-i
 group: 
 links:
