@@ -58,7 +58,7 @@ We have many exciting ongoing projects, please reach out if you'd be interested 
 
 {% capture text %}
 
-Our team is still growing and we are always looking for talented students and post-docs to join us on our journey.
+Our team is growing and we are always looking for talented students and post-docs to join us on our journey.
 
 {%
   include button.html
