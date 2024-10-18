@@ -1,28 +1,9 @@
 ---
 ---
 
-<<<<<<< HEAD
 # HeartAILab's Website
 
 An engaging 1-3 sentence description of your lab.
-=======
-# Lab Website Template
-
-[Lab Website Template](https://github.com/greenelab/lab-website-template) is an easy-to-use, flexible website template for [labs](https://www.greenelab.com/).
-Spend less time worrying about managing a website and citations, and more time running your lab.
-
-{%
-  include button.html
-  type="docs"
-  link="https://greene-lab.gitbook.io/lab-website-template-docs"
-%}
-{%
-  include button.html
-  type="github"
-  text="On GitHub"
-  link="greenelab/lab-website-template"
-%}
->>>>>>> template/main
 
 {% include section.html %}
 
@@ -57,11 +38,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 {%
   include button.html
-<<<<<<< HEAD
-  link="tools"
-=======
   link="projects"
->>>>>>> template/main
   text="Browse our projects"
   icon="fa-solid fa-arrow-right"
   flip=true
