@@ -1,6 +1,6 @@
 ---
-name: Ramsey Wehbe
-image: images/photo.jpg
+name: Ramsey Wehbe, MD, MSAI
+image: images/team/ramsey_wehbe.png
 role: pi
 aliases:
 links:
