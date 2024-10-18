@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://heartailab.github.io/sitemap.xml
