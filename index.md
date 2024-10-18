@@ -26,7 +26,7 @@ Our research focus in on leveraging deep learning to analyze unstructured data i
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/DeepLearningUses.png"
   link="research"
   title="Our Research"
   text=text

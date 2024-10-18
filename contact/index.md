@@ -27,7 +27,7 @@ Please feel free to contact us if you are interested in collaborating or looking
 
 {%
   include figure.html
-  image="images/photo.jpg"
+  image="images/DeepLearningUses.png"
   caption="Lorem ipsum"
 %}
 
