@@ -7,9 +7,7 @@ nav:
 
 # {% include icon.html icon="fa-regular fa-envelope" %}Contact
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Please feel free to contact us if you are interested in collaborating or looking for a research position. Typically we are looking for talented individuals with some data science/artificial intelligence experience who are self-starters, motivated, and hard-working with clinical expertise a plus (though not necessary).
 
 {%
   include button.html
@@ -17,12 +15,6 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
   text="Email"
   link="wehbe@musc.edu"
 %}
-<!-- {%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
-%} -->
 
 {%
   include button.html
@@ -33,24 +25,9 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% include section.html %}
 
-<!-- {% capture%} -->
-
 {%
   include figure.html
   image="images/photo.jpg"
   caption="Lorem ipsum"
 %}
 
-<!-- {% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %} -->
