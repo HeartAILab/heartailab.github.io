@@ -11,7 +11,7 @@ HEAL is a team of researchers in the Division of Cardiology at the Medical Unive
 
 {% capture text %}
 
-Our research focus in on leveraging deep learning to analyze unstructured data sets in cardiology (and medicine in general). 
+Our research focus in on leveraging deep learning to analyze unstructured data in cardiology. 
 
 {%
   include button.html
