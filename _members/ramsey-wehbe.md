@@ -5,7 +5,7 @@ role: pi
 aliases:
 links:
   home-page: https://providers.muschealth.org/sc/charleston/ramsey-michael-wehbe-md
-  orcid: https://orcid.org/0000-0003-0599-7957
+  orcid: 0000-0003-0599-7957
 ---
 
 Ramsey Wehbe, MD MSAI is the primary investigator and director of the HEart Ai Lab (HEAL). He is a heart failure cardiologist and an assistant professor of medicine at MUSC, with dual appointments in the Division of Cardiology and the Biomedical Informatics Center. He is a physician scientist with expertise and formal training in artificial intelligence, and his clinical interests include cardiac imaging in the diagnosis of heart failure subtypes. 

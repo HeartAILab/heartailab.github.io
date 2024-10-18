@@ -14,23 +14,24 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
+  text="Email"
+  link="wehbe@musc.edu"
 %}
-{%
+<!-- {%
   include button.html
   type="phone"
   text="(555) 867-5309"
   link="+1-555-867-5309"
-%}
+%} -->
+
 {%
   include button.html
   type="address"
   tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  link="https://maps.app.goo.gl/2XaFkex1X18PGR28A"
 %}
 
-{% include section.html %}
+<!-- {% include section.html %}
 
 {% capture col1 %}
 
@@ -52,11 +53,11 @@ nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
 {% endcapture %}
 
-{% include cols.html col1=col1 col2=col2 %}
+{% include cols.html col1=col1 col2=col2 %} -->
 
-{% include section.html dark=true %}
+<!-- {% include section.html dark=true %} -->
 
-{% capture col1 %}
+<!-- {% capture col1 %}
 Lorem ipsum dolor sit amet  
 consectetur adipiscing elit  
 sed do eiusmod tempor
@@ -74,4 +75,4 @@ consectetur adipiscing elit
 sed do eiusmod tempor
 {% endcapture %}
 
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+{% include cols.html col1=col1 col2=col2 col3=col3 %} -->

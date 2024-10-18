@@ -7,29 +7,20 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-users" %}Team
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Our team consists of talented multidisciplinary researchers across cardiovascular disease/heart failure, artificial intelligence, and data science. 
 
 {% include section.html %}
 
-{% include list.html data="members" component="portrait" filters="role: pi" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$)" %}
+{% include list.html data="members" component="portrait" filters="role: pi, group: " %}
+{% include list.html data="members" component="portrait" filters="role: ^(?!pi$), group: " %}
 
 {% include section.html background="images/background.jpg" dark=true %}
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+We are growing and we are always looking for talented, motivated, and driven students, residents, fellows, and post-docs to innovate with us. Feel free to reach out if you are interested in joining!
 
+
+## Alumni
 {% include section.html %}
 
-{% capture content %}
-
-  {% include figure.html image="images/photo.jpg" %}
-  {% include figure.html image="images/photo.jpg" %}
-  {% include figure.html image="images/photo.jpg" %}
-  
-{% endcapture %}
-
-{% include grid.html style="square" content=content %}
+{% include list.html data="members" component="portrait" filters="role: pi, group: alumni" %}
+{% include list.html data="members" component="portrait" filters="role: ^(?!pi$), group: alumni" %}
