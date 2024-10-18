@@ -3,7 +3,7 @@
 
 ## **HE**art **A**i **L**ab (**HEAL**)
 
-HEAL is a team of researchers in the Division of Cardiology at the Medical University of South Carolina dedicated to using artificial intelligence to improve the health of patients living with cardiovascular disease. Our focus is bridging the gap between the engineering sciences and cardiovascular care. We analyze unstructured data (imaging, clinical notes, ECG/waveforms), using innovative approaches to leverage deep learning in the diagnosis and management of heart failure. HEAL boasts a large and expanding program of both collaborative and internal research.
+HEAL is a team of researchers in the Division of Cardiology at the Medical University of South Carolina (MUSC) dedicated to using artificial intelligence to improve the health of patients living with cardiovascular disease. Our focus is bridging the gap between the engineering sciences and cardiovascular care. We analyze unstructured data (imaging, clinical notes, ECG/waveforms), using innovative approaches to leverage deep learning in the diagnosis and management of heart failure. HEAL boasts an expanding program of both collaborative and internal research.
 
 {% include section.html %}
 
@@ -34,7 +34,7 @@ Our research focus in on leveraging deep learning to analyze unstructured data s
 
 {% capture text %}
 
-We have many exciting ongoing projects, please reach out if you'd be interested in collaborating.
+We have many exciting ongoing projects, spanning work with deep convolutional neural networks for computer vision and large language models for natural language processing of clinical and biomedical text.
 
 {%
   include button.html
