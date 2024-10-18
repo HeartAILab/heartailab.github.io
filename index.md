@@ -2,7 +2,7 @@
 
 ## **HE**art **A**i **L**ab (**HEAL**)
 
-The HEAL lab is a team of researchers in the Division of Cardiology at the Medical University of South Carolina dedicated to using artificial intelligence to improve the health of patients living with cardiovascular disease. Our focus is bridging the gap between the engineering sciences and cardiovascular care, including innovative approaches to the analysis of unstructured data (imaging, clinical notes, ECG/waveforms) using state-of-the-art machine learning/deep learning algorithms in the diagnosis and management of heart failure. HEAL boasts a large and expanding program of both collaborative and internal research.
+The HEAL lab is a team of researchers in the Division of Cardiology at the Medical University of South Carolina dedicated to using artificial intelligence to improve the health of patients living with cardiovascular disease. Our focus is bridging the gap between the engineering sciences and cardiovascular care. We analyze unstructured data (imaging, clinical notes, ECG/waveforms), using innovative approaches to leverage deep learning in the diagnosis and management of heart failure. HEAL boasts a large and expanding program of both collaborative and internal research.
 
 {% include section.html %}
 
