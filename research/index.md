@@ -7,14 +7,14 @@ nav:
 
 # {% include icon.html icon="fa-solid fa-microscope" %}Research
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+HEAL Lab is dedicated to advancing the field of cardiology through innovative applications of deep learning. By developing cutting-edge techniques, we aim to analyze and interpret unstructured data—such as medical imaging, electronic health records, and sensor data—to uncover new insights, improve diagnostics, and enhance patient care. Under the leadership of Dr.
+Ramsey Wehbe, we strive to bridge the gap between artificial intelligence and cardiovascular medicine, driving impactful research with real-world applications.
 
 {% include section.html %}
 
 ## Highlighted
 
-{% include citation.html lookup="DeepCOVID-XR" style="rich" %}
+{% include citation.html lookup="doi:10.1001/jamacardio.2023.3142" style="rich" %}
 
 {% include section.html %}
 

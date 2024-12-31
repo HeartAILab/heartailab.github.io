@@ -6,6 +6,10 @@ pi:
   icon: fa-solid fa-microscope
   description: Principal Investigator
 
+seniori:
+  icon: fa-solid fa-microscope
+  description: Senior Investigator
+
 co-i:
   icon: fa-solid fa-microscope
   description: Co-Investigator
@@ -34,9 +38,9 @@ undergrad:
   icon: fa-solid fa-user-graduate
   description: Undergraduate Student
 
-programmer:
+le:
   icon: fa-solid fa-code
-  description: Programmer
+  description: Lead Engineer
 
 mascot:
   icon: fa-solid fa-dog

@@ -11,24 +11,24 @@ Our team consists of talented multidisciplinary researchers across cardiovascula
 
 {% include section.html %}
 
+
+<h2 style="text-align: center;">Core Team</h2>
+
 {% include list.html data="members" component="portrait" filters="role: pi, group: " %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$), group: " %}
-
-{% include section.html dark=true %}
-
-We are growing and we are always looking for talented, motivated, and driven students, residents, fellows, and post-docs to innovate with us. Feel free to reach out if you are interested in joining!
-
-{%
-  include button.html
-  link="contact"
-  text="Contact us"
-  icon="fa-solid fa-arrow-right"
-  flip=true
-  style="bare"
-%}
+{% include list.html data="members" component="portrait" filters="role: le, group: " %}
 
 {% include section.html %}
-## Alumni
 
-{% include list.html data="members" component="portrait" filters="role: pi, group: alumni" %}
-{% include list.html data="members" component="portrait" filters="role: ^(?!pi$), group: alumni" %}
+<h2 style="text-align: center;">Co-Investigators</h2>
+
+{% include list.html data="members" component="portrait" filters="role: seniori, group: " %}
+{% include list.html data="members" component="portrait" filters="role: co-i, group: " %}
+<!-- {% include list.html data="members" component="portrait" filters="role: ^(?!pi$), group: " %} -->
+
+{% include section.html %}
+
+<h2 style="text-align: center;">Medical Students, Residents, and Fellows</h2>
+
+{% include list.html data="members" component="portrait" filters="role: fellow, group: " %}
+{% include list.html data="members" component="portrait" filters="role: medstudent, group: " %}
+{% include list.html data="members" component="portrait" filters="role: resident, group: " %}

@@ -6,6 +6,7 @@ import traceback
 from importlib import import_module
 from pathlib import Path
 from dotenv import load_dotenv
+from urllib.request import Request, urlopen
 from util import *
 
 
@@ -116,6 +117,31 @@ log()
 
 log("Generating citations")
 
+def fetch_thumbnail_from_doi(doi):
+    """
+    Fetch a thumbnail image URL for a given DOI by searching for figures or images in the associated metadata.
+    """
+    try:
+        # Use CrossRef API or another service to get metadata
+        api_url = f"https://api.crossref.org/works/{doi}"
+        request = Request(url=api_url, headers={"Accept": "application/json"})
+        response = json.loads(urlopen(request).read())
+
+        # Attempt to extract figure or image URL from metadata
+        figures = get_safe(response, "message.references", [])
+        if figures:
+            for figure in figures:
+                # Check for figure URLs or similar fields
+                image_url = get_safe(figure, "URL", None)
+                if image_url:
+                    return image_url
+
+        # Fallback to None if no figures or images are found
+        return None
+    except Exception as e:
+        log(f"Error fetching thumbnail for DOI {doi}: {e}", level="WARNING")
+        return None
+
 # list of new citations
 citations = []
 
@@ -153,6 +179,13 @@ for index, source in enumerate(sources):
                 log(e, 3, "WARNING")
                 # discard source from citations
                 continue
+    
+        # Fetch thumbnail for DOI
+    if "doi" in _id.lower():
+        doi = _id.split(":", 1)[-1]  # Extract DOI value
+        thumbnail = fetch_thumbnail_from_doi(doi)
+        if thumbnail:
+            citation["thumbnail"] = thumbnail
 
     # preserve fields from input source, overriding existing fields
     citation.update(source)

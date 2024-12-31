@@ -34,12 +34,12 @@ Our research focus in on leveraging deep learning to analyze unstructured data i
 
 {% capture text %}
 
-We have many exciting ongoing projects, spanning work with deep convolutional neural networks for computer vision and large language models for natural language processing of clinical and biomedical text.
+News, announcements, and props related to happenings in the lab.
 
 {%
   include button.html
-  link="projects"
-  text="Browse our projects"
+  link="news"
+  text="Browse our news feed"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -49,9 +49,9 @@ We have many exciting ongoing projects, spanning work with deep convolutional ne
 
 {%
   include feature.html
-  image="images/photo.jpg"
-  link="projects"
-  title="Our Projects"
+  image="images/news_thumbnail.png"
+  link="news"
+  title="Our News"
   flip=true
   style="bare"
   text=text
@@ -74,7 +74,7 @@ Our team is growing and we are always looking for talented students and post-doc
 
 {%
   include feature.html
-  image="images/photo.jpg"
+  image="images/team/team.jpeg"
   link="team"
   title="Our Team"
   text=text
