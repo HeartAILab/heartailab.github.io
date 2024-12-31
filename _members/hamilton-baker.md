@@ -1,5 +1,5 @@
 ---
-name: Hamilton Baker, MD
+name: Hamilton Baker, MD, Associate Professor
 image: images/team/Baker-Hamilton.jpg
 role: co-i
 group: 

@@ -19,7 +19,7 @@ Our team consists of talented multidisciplinary researchers across cardiovascula
 
 {% include section.html %}
 
-<h2 style="text-align: center;">Co-Investigators</h2>
+<h2 style="text-align: center;">Collaborating Investigators</h2>
 
 {% include list.html data="members" component="portrait" filters="role: seniori, group: " %}
 {% include list.html data="members" component="portrait" filters="role: co-i, group: " %}

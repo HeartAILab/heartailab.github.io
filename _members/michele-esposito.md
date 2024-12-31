@@ -1,5 +1,5 @@
 ---
-name: Michele Esposito, MD
+name: Michele Esposito, MD, Assistant Professor
 image: images/team/Esposito_headshot.jpg
 role: seniori
 group: 

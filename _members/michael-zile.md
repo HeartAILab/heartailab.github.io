@@ -1,5 +1,5 @@
 ---
-name: Michael Zile, MD
+name: Michael Zile, MD, Professor
 image: images/team/ZileMichael.jpg
 role: co-i
 group: 

@@ -1,5 +1,5 @@
 ---
-name: Ryan Tedford, MD
+name: Ryan Tedford, MD, Professor
 image: images/team/Ryan_Tedford.jpg
 role: co-i
 group: 

@@ -1,5 +1,5 @@
 ---
-name: Leslie Lenert, MD
+name: Leslie Lenert, MD, MS, Professor
 image: images/team/leslie_lenert.jpeg
 role: co-i
 group: 

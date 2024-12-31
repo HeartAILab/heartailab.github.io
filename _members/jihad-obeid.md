@@ -1,5 +1,5 @@
 ---
-name: Jihad Obeid, MD
+name: Jihad Obeid, MD, Professor
 image: images/team/jihad_obeid.jpeg
 role: co-i
 group: 

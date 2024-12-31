@@ -1,7 +1,7 @@
 ---
-name: Melissa Lamicq, MD
+name: Melissa Lamicq
 image: images/team/Melissa Lamicq.jpeg
-role: fellow
+role: medstudent
 group: 
 links:
   LinkedIn: https://www.linkedin.com/in/melissa-lamicq-0326354b/
