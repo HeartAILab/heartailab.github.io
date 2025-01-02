@@ -21,7 +21,7 @@ Our team consists of talented multidisciplinary researchers across cardiovascula
 
 <h2 style="text-align: center;">Collaborating Investigators</h2>
 
-{% include list.html data="members" component="portrait" filters="role: espo, group: co-i " %}
+{% include list.html data="members" component="portrait" filters="role: espo, group: " %}
 {% include list.html data="members" component="portrait" filters="group: co-i" %}
 <!-- {% include list.html data="members" component="portrait" filters="role: ^(?!pi$), group: " %} -->
 
