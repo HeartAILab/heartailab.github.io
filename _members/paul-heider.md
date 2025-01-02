@@ -1,5 +1,5 @@
 ---
-name: Paul Heider, Phd
+name: Paul Heider, PhD
 image: images/team/Paul_Heider.jpeg
 role: asnp
 group: co-i
