@@ -1,5 +1,5 @@
 ---
-name: Michele Esposito, MD, Assistant Professor
+name: Michele Esposito, MD
 image: images/team/Esposito_headshot.jpg
 role: espo
 group: 
