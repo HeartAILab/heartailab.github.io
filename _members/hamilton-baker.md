@@ -1,5 +1,5 @@
 ---
-name: Hamilton Baker, MD, Associate Professor
+name: Hamilton Baker, MD
 image: images/team/Baker-Hamilton.jpg
 role: assp
 group: 
