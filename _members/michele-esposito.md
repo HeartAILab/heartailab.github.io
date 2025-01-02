@@ -1,7 +1,7 @@
 ---
 name: Michele Esposito, MD, Assistant Professor
 image: images/team/Esposito_headshot.jpg
-role: seniori
+role: espo
 group: 
 links:
   home-page: https://providers.muschealth.org/sc/north-charleston/michele-lynne-esposito-md 
