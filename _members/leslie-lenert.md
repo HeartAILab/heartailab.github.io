@@ -1,7 +1,7 @@
 ---
 name: Leslie Lenert, MD, MS, Professor
 image: images/team/leslie_lenert.jpeg
-role: co-i
+role: p
 group: 
 links:
   home-page: https://profiles.musc.edu/leslie.lenert/
