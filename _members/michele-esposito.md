@@ -2,7 +2,7 @@
 name: Michele Esposito, MD
 image: images/team/Esposito_headshot.jpg
 role: espo
-group: 
+group: co-i
 links:
   home-page: https://providers.muschealth.org/sc/north-charleston/michele-lynne-esposito-md 
 ---
