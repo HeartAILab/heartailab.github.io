@@ -2,7 +2,7 @@
 name: Paul Heider, Phd
 image: images/team/Paul_Heider.jpeg
 role: assnp
-group: 
+group: co-i
 links:
   home-page: https://profiles.musc.edu/paul.heider/
   orcid: 0000-0002-1589-4567 
