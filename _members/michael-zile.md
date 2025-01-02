@@ -1,7 +1,7 @@
 ---
 name: Michael Zile, MD, Professor
 image: images/team/ZileMichael.jpg
-role: co-i
+role: p
 group: 
 links:
   home-page: https://education.musc.edu/MUSCApps/facultydirectory/Zile-Michael 
