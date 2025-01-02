@@ -1,7 +1,7 @@
 ---
 name: Hamilton Baker, MD, Associate Professor
 image: images/team/Baker-Hamilton.jpg
-role: co-i
+role: assp
 group: 
 links:
   home-page: https://providers.muschealth.org/sc/north-charleston/george-hamilton-baker-md
