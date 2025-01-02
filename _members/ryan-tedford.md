@@ -2,7 +2,7 @@
 name: Ryan Tedford, MD
 image: images/team/Ryan_Tedford.jpg
 role: p
-group: 
+group: co-i
 links:
   home-page: https://providers.muschealth.org/sc/mount-pleasant/ryan-james-tedford-md 
 ---
