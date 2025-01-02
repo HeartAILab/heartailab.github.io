@@ -1,7 +1,7 @@
 ---
-name: Jihad Obeid, MD, Professor
+name: Jihad Obeid, MD
 image: images/team/jihad_obeid.jpeg
-role: co-i
+role: p
 group: 
 links:
   home-page: https://profiles.musc.edu/Jihad.Obeid/
