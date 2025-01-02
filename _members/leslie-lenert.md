@@ -1,5 +1,5 @@
 ---
-name: Leslie Lenert, MD, MS, Professor
+name: Leslie Lenert, MD, MS
 image: images/team/leslie_lenert.jpeg
 role: p
 group: 
