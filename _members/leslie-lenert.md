@@ -2,7 +2,7 @@
 name: Leslie Lenert, MD, MS
 image: images/team/leslie_lenert.jpeg
 role: p
-group: 
+group: co-i
 links:
   home-page: https://profiles.musc.edu/leslie.lenert/
 ---
