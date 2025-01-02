@@ -1,7 +1,7 @@
 ---
-name: Ryan Tedford, MD, Professor
+name: Ryan Tedford, MD
 image: images/team/Ryan_Tedford.jpg
-role: co-i
+role: p
 group: 
 links:
   home-page: https://providers.muschealth.org/sc/mount-pleasant/ryan-james-tedford-md 
