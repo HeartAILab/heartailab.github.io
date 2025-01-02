@@ -2,7 +2,7 @@
 name: Hamilton Baker, MD
 image: images/team/Baker-Hamilton.jpg
 role: assp
-group: 
+group: co-i
 links:
   home-page: https://providers.muschealth.org/sc/north-charleston/george-hamilton-baker-md
 ---
