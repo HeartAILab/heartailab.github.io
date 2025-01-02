@@ -1,5 +1,5 @@
 ---
-name: Paul Heider, PHD, Assistant Professor
+name: Paul Heider, Phd
 image: images/team/Paul_Heider.jpeg
 role: co-i
 group: 
