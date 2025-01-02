@@ -6,25 +6,25 @@ pi:
   icon: fa-solid fa-microscope
   description: Principal Investigator
 
-seniori:
-  icon: fa-solid fa-microscope
-  description: Senior Investigator
+# seniori:
+#   icon: fa-solid fa-microscope
+#   description: Senior Investigator
 
-co-i:
+espo:
   icon: fa-solid fa-microscope
-  description: Co-Investigator
+  description: Assistant Professor
 
 p:
   icon: fa-solid fa-microscope
-  description: Co-Investigator
+  description: Professor
 
 asp:
   icon: fa-solid fa-microscope
-  description: Co-Investigator
+  description: Associate Professor
 
 asnp:
   icon: fa-solid fa-microscope
-  description: Co-Investigator
+  description: Assistant Professor
 
 fellow:
   icon: fa-solid fa-glasses
