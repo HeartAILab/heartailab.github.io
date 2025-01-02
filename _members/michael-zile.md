@@ -2,7 +2,7 @@
 name: Michael Zile, MD
 image: images/team/ZileMichael.jpg
 role: p
-group: 
+group: co-i
 links:
   home-page: https://education.musc.edu/MUSCApps/facultydirectory/Zile-Michael 
 ---
