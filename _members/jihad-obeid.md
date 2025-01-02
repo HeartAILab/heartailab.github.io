@@ -2,7 +2,7 @@
 name: Jihad Obeid, MD
 image: images/team/jihad_obeid.jpeg
 role: p
-group: 
+group: co-i
 links:
   home-page: https://profiles.musc.edu/Jihad.Obeid/
   orcid: 	0000-0002-7193-7779
