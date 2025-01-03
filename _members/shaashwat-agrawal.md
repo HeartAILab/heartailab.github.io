@@ -3,8 +3,12 @@ name: Shaashwat Agrawal, MSAI
 image: images/team/Shaashwat_headshot.jpeg
 role: le
 group: 
-links:
-  github: 
+links: 
+  github: Shaashwat05
+  linkedin: https://www.linkedin.com/in/shaashwata/
+  orcid: 0000-0002-0006-267X
+
 ---
 
-Dr. Esposito is an Assistant Professor of Medicine in the division of cardiology at MUSC and is trained in both interventional cardiology and advanced heart failure and transplant cardiology. Dr. Esposito has published extensively on the use of temporary mechanical circulatory support in the setting of cardiogenic shock and is currently exploring peripheral skeletal muscle changes that occur in the setting of low output heart failure. Dr. Esposito colloborates on priority projects for HEAL, including the non-invasive assessment of cardiac filling pressures using computer vision (JVPro).
+Shaashwat Agrawal is a Senior research Associate at the HEAL Lab, MUSC. Hed did his undergraduate in BTech. Computer Science and Engineering from VIT University and Masters in Artificial Intelligence from Northwestern University. He has strong foundations in data science, generative AI, and explainable AI, proficient in Python and other tools for end-to-end ML pipelines and experienced in publishing research. He is passionate about innovation, AI, and technology. His mission is to ethically integrate AI into society, driving innovation and progress with a foundation of hard work and passion.
+
