@@ -1,0 +1,102 @@
+# name: update-tweets
+# run-name: Update Tweets
+
+# on:
+#   # Periodic trigger every 2 days
+#   schedule:
+#     - cron: '0 0 */2 * *' # every 2 days at midnight UTC
+
+#   # Manual trigger from the Actions tab
+#   workflow_dispatch:
+#     inputs:
+#       open-pr:
+#         type: boolean
+
+#   # Triggered by another workflow
+#   workflow_call:
+#     inputs:
+#       open-pr:
+#         type: boolean
+#     outputs:
+#       changed:
+#         value: ${{ jobs.update-tweets.outputs.changed }}
+
+# permissions:
+#   contents: write
+#   pull-requests: write
+
+# env:
+#   FORCE_COLOR: true
+#   TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+#   TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+#   TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+#   TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
+#   TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+
+# jobs:
+#   update-tweets:
+#     runs-on: ubuntu-latest
+#     timeout-minutes: 15
+
+#     steps:
+#       # Debugging: Dump context for debugging purposes
+#       - uses: crazy-max/ghaction-dump-context@v2
+
+#       # Step 1: Check out repository
+#       - name: Checkout branch contents
+#         uses: actions/checkout@v4
+#         with:
+#           repository: ${{ github.event.pull_request.head.repo.full_name }}
+#           ref: ${{ github.head_ref }}
+
+#       # Step 2: Set up Python environment
+#       - name: Setup Python
+#         uses: actions/setup-python@v5
+#         with:
+#           python-version: "3.11"
+#           cache: "pip"
+#           cache-dependency-path: "**/requirements.txt"
+
+#       # Step 3: Install required dependencies
+#       - name: Install Python packages
+#         run: |
+#           python -m pip install --upgrade tweepy
+
+#       # Optional: Debugging with tmate
+#       - if: runner.debug == '1'
+#         uses: mxschmitt/action-tmate@v3
+
+#       # Step 4: Run the fetch tweets script
+#       - name: Fetch latest tweets
+#         run: python _cite/fetch_tweets.py
+
+#       # Step 5: Check if tweets file changed
+#       - name: Check if tweets changed
+#         id: changed
+#         uses: tj-actions/verify-changed-files@v18
+#         with:
+#           files: |
+#             _data/tweets.yaml
+
+#       # Step 6: Commit updated tweets to branch if no PR is required
+#       - name: Commit updated tweets
+#         if: |
+#           steps.changed.outputs.files_changed == 'true' &&
+#           inputs.open-pr != true
+#         uses: stefanzweifel/git-auto-commit-action@v5
+#         with:
+#           commit_message: "Update tweets from GitHub Action"
+
+#       # Step 7: Open a pull request with updated tweets if PR is required
+#       - name: Open pull request with updated tweets
+#         if: |
+#           steps.changed.outputs.files_changed == 'true' &&
+#           inputs.open-pr == true
+#         uses: peter-evans/create-pull-request@v6
+#         with:
+#           branch: tweet-update
+#           title: "Periodic tweet update"
+#           body: "This pull request updates the tweets fetched from the Twitter API."
+
+#     outputs:
+#       changed: ${{ steps.changed.outputs.files_changed }}

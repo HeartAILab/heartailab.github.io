@@ -1,0 +1,199 @@
+<style>
+  /* Page container */
+  .page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* stack cards vertically */
+    min-height: 100vh; /* full height for centering */
+    background-color: #f5f8fa; /* Twitter-like light gray */
+    padding: 20px;
+  }
+
+  .scrollable-container {
+    background: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    height: 80vh; /* Restrict height to make it scrollable */
+    overflow-y: auto; /* Enable vertical scrolling */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 10px 0; /* Adjust padding for content spacing */
+  }
+
+  /* Overall tweet card container */
+  .tweet-card {
+    background: #fff;
+    border: 1px solid #e1e8ed;
+    border-radius: 10px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    max-width: 100%; /* limit card width */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: background 0.2s;
+    text-align: left; /* ensures all text is left-aligned */
+  }
+  .tweet-card:hover {
+    background: #a9c1cd; /* subtle hover effect */
+  }
+  .tweet-card:not(:last-child) {
+    margin-bottom: 0; /* Remove extra spacing */
+  }
+
+
+  /* User icon */
+  .user-icon {
+    width: 40px; /* Adjust size as needed */
+    height: 40px; /* Ensure height matches width */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image scales properly inside the circle */
+    border: 1px solid #e1e8ed; /* Optional: Add a subtle border for styling */
+  }
+
+  /* Tweet ID */
+  .tweet-id {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #14171A;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  /* Tweet text body */
+  .tweet-text {
+    margin-bottom: 10px;
+    white-space: pre-line;
+    line-height: 1.4;
+    font-size: 1rem;
+    color: #0f1419;
+  }
+
+  /* Timestamp */
+  .tweet-date {
+    color: #657786;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+  }
+
+  /* Public metrics */
+  .tweet-metrics {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.85rem;
+    color: #657786;
+    gap: 10px;
+  }
+  .tweet-metrics span {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  /* Mentions and hashtags in blue */
+  .mention,
+  .hashtag {
+    color: #1da1f2;
+  }
+
+  /* Icons */
+  .icon {
+    width: 16px;
+    height: 16px;
+  }
+</style>
+
+<div class="page-container">
+
+  <div class="posts-header">
+    <h1 class="account-name">Posts from @ramseywehbemd</h1>
+  </div>
+
+  <div class="scrollable-container">
+  {% assign tweets_data = site.data.tweets.tweets %}
+  {% assign includes_data = site.data.tweets.includes %}
+
+  {% for tweet in tweets_data %}
+    <div class="tweet-card">
+      <div class="tweet-id">
+        {% assign user_item = includes_data.users | where: "id", tweet.author_id | first %}
+        {% if user_item %}
+        <img class="user-icon"
+        src="https://pbs.twimg.com/profile_images/1106640667088957440/SkoJcONn_normal.png"
+        alt="User Icon" />
+          {{ user_item.username }}
+        {% endif %}
+        
+        <!-- Tweet ID: {{ tweet.id }} -->
+      </div>
+      
+      <!-- Highlighted mentions and hashtags will be handled in JavaScript -->
+      <div class="tweet-text js-tweet-text">
+        {{ tweet.text }}
+      </div>
+
+      <div class="tweet-date">
+        Posted at {{ tweet.created_at }}
+      </div>
+      
+      {% if tweet.attachments and tweet.attachments.media_keys %}
+      {% assign first_media_key = tweet.attachments.media_keys | first %}
+      {% assign media_item = includes_data.media | where: "media_key", first_media_key | first %}
+    
+      {% if media_item %}
+        <div class="tweet-media">
+          <!-- Display the first image -->
+          <img src="{{ media_item.url }}" alt="Tweet Media" class="tweet-media-image" />
+        </div>
+      {% endif %}
+    {% endif %}
+
+      {% if tweet.public_metrics %}
+        <div class="tweet-metrics">
+          <span>
+            <img class="icon" src="/images/repost.svg" alt="Retweets Icon" />
+            {{ tweet.public_metrics.retweet_count }}
+          </span>
+          <span>
+            <img class="icon" src="/images/comment.svg" alt="Replies Icon" />
+            {{ tweet.public_metrics.reply_count }}
+          </span>
+          <span>
+            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/833/833300.png" alt="Likes Icon" />
+            {{ tweet.public_metrics.like_count }}
+          </span>
+          <span>
+            <img class="icon" src="/images/chart-bar-graph.svg" alt="Quotes Icon" />
+            {{ tweet.public_metrics.impression_count }}
+          </span>
+        </div>
+      {% endif %}
+      
+    </div>
+  {% endfor %}
+</div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Regex patterns for mentions (@User123) and hashtags (#Topic).
+    const mentionPattern = /(@[A-Za-z0-9_]+)/g;
+    const hashtagPattern = /(#[A-Za-z0-9_]+)/g;
+
+    // Find all tweet text blocks.
+    const tweetEls = document.querySelectorAll(".js-tweet-text");
+
+    tweetEls.forEach((el) => {
+      let text = el.textContent; // raw text
+
+      // Replace mentions and hashtags.
+      text = text.replace(mentionPattern, '<span class="mention">$1</span>');
+      text = text.replace(hashtagPattern, '<span class="hashtag">$1</span>');
+
+      // Set the modified text as HTML.
+      el.innerHTML = text;
+    });
+  });
+</script>

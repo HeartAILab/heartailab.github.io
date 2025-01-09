@@ -21,6 +21,8 @@ RUN python3 -m pip install --no-cache-dir --upgrade --requirement requirements.t
 # install python package for listening for file changes
 RUN pip install "watchdog[watchmedo]==3.0.0"
 
+RUN pip install tweepy
+
 # ports used by jekyll
 EXPOSE 4000
 EXPOSE 35729
