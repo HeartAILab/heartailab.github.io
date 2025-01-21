@@ -250,7 +250,6 @@
   date: '2022-04-01'
   link: https://doi.org/gs9dhg
   image: /images/share.png
-  image: /images/share.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -484,7 +483,7 @@
   publisher: American Journal of Medical Genetics Part A
   date: '2009-05-15'
   link: https://doi.org/fd7drq
-  image: https://onlinelibrary.wiley.com/cms/asset/b5da16c4-aa00-4612-8d8d-01778746ced7/ajmg.a.v149a:6.cover.gif?trick=1737489582835
+  image: /images/share.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
