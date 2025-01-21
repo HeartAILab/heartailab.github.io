@@ -166,7 +166,7 @@ def fetch_thumbnail_from_doi(doi):
             vals = [tag.get_attribute("content") for tag in img_tags]
 
         driver.quit()
-        return vals[0] if vals else "/images/share.png"
+        return vals[0] if (vals and vals[0] != None) else "/images/share.png"
 
     except Exception as e:
         print(f"Error fetching thumbnail: {e}")

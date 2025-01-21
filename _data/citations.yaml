@@ -67,7 +67,7 @@
   publisher: arXiv
   date: '2023-01-01'
   link: https://doi.org/g8k2dq
-  image: https://static.arxiv.org/static/arxiv.marxdown/0.1.0/images/arxiv-logo.png
+  image: /images/arxiv-logo.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -170,7 +170,7 @@
   publisher: arXiv
   date: '2023-01-01'
   link: https://doi.org/g8k2dw
-  image: https://static.arxiv.org/static/arxiv.marxdown/0.1.0/images/arxiv-logo.png
+  image: /images/arxiv-logo.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -249,6 +249,7 @@
   publisher: Heart Failure Clinics
   date: '2022-04-01'
   link: https://doi.org/gs9dhg
+  image: /images/share.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -265,7 +266,7 @@
   publisher: arXiv
   date: '2022-01-01'
   link: https://doi.org/g8k2d3
-  image: https://static.arxiv.org/static/arxiv.marxdown/0.1.0/images/arxiv-logo.png
+  image: /images/arxiv-logo.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -404,6 +405,7 @@
   publisher: Heart Failure Clinics
   date: '2020-10-01'
   link: https://doi.org/ghk44f
+  image: /images/share.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -464,6 +466,7 @@
   publisher: International Cardiovascular Forum Journal
   date: '2015-09-03'
   link: https://doi.org/g8k2fc
+  image: /images/share.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -480,7 +483,7 @@
   publisher: American Journal of Medical Genetics Part A
   date: '2009-05-15'
   link: https://doi.org/fd7drq
-  image: https://onlinelibrary.wiley.com/cms/asset/b5da16c4-aa00-4612-8d8d-01778746ced7/ajmg.a.v149a:6.cover.gif?trick=1737489582835
+  image: https://onlinelibrary.wiley.com/cms/asset/b5da16c4-aa00-4612-8d8d-01778746ced7/ajmg.a.v149a:6.cover.gif?trick=1737491813536
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
