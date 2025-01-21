@@ -150,26 +150,39 @@
       {% endif %}
     {% endif %}
 
-      {% if tweet.public_metrics %}
-        <div class="tweet-metrics">
-          <span>
-            <img class="icon" src="/images/repost.svg" alt="Retweets Icon" />
-            {{ tweet.public_metrics.retweet_count }}
-          </span>
-          <span>
-            <img class="icon" src="/images/comment.svg" alt="Replies Icon" />
-            {{ tweet.public_metrics.reply_count }}
-          </span>
-          <span>
-            <img class="icon" src="https://cdn-icons-png.flaticon.com/512/833/833300.png" alt="Likes Icon" />
-            {{ tweet.public_metrics.like_count }}
-          </span>
-          <span>
-            <img class="icon" src="/images/chart-bar-graph.svg" alt="Quotes Icon" />
-            {{ tweet.public_metrics.impression_count }}
-          </span>
-        </div>
-      {% endif %}
+    {% if tweet.referenced_tweets != empty %}
+    {% for ref in tweet.referenced_tweets %}
+  {% if ref.type == 'retweeted' %}
+    {% assign public_metrics_id = ref.id %}
+  {% endif %}
+{% endfor %}
+    {% assign public_metrics_tweet = includes_data.tweets | where: "id", public_metrics_id | first %}
+    {% else %}
+    {% assign public_metrics_tweet = tweet %}
+    {% endif %}
+    <!-- {{ public_metrics_tweet }} -->
+
+
+    {% if tweet.public_metrics %}
+    <div class="tweet-metrics">
+      <span>
+        <img class="icon" src="/images/repost.svg" alt="Retweets Icon" />
+        {{ public_metrics_tweet.public_metrics.retweet_count }}
+      </span>
+      <span>
+        <img class="icon" src="/images/comment.svg" alt="Replies Icon" />
+        {{ public_metrics_tweet.public_metrics.reply_count }}
+      </span>
+      <span>
+        <img class="icon" src="https://cdn-icons-png.flaticon.com/512/833/833300.png" alt="Likes Icon" />
+        {{ public_metrics_tweet.public_metrics.like_count }}
+      </span>
+      <span>
+        <img class="icon" src="/images/chart-bar-graph.svg" alt="Quotes Icon" />
+        {{ public_metrics_tweet.public_metrics.impression_count }}
+      </span>
+    </div>
+  {% endif %}
       
     </div>
   {% endfor %}
