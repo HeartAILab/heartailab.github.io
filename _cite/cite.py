@@ -128,6 +128,9 @@ def fetch_thumbnail_from_doi(doi):
     images in the associated metadata using Selenium + local ChromeDriver.
     """
     try:
+        if "arxiv" in doi.lower():
+            return "/images/arxiv-logo.png"
+            
         article_url = "https://doi.org/" + doi
 
         # Set up Selenium options for Chrome
@@ -163,11 +166,11 @@ def fetch_thumbnail_from_doi(doi):
             vals = [tag.get_attribute("content") for tag in img_tags]
 
         driver.quit()
-        return vals[0] if vals else "/images/logo.svg"
+        return vals[0] if vals else "/images/share.png"
 
     except Exception as e:
         print(f"Error fetching thumbnail: {e}")
-        return  "/images/logo.svg"
+        return  "/images/share.png"
 
 
 
