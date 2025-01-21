@@ -265,7 +265,7 @@
   publisher: arXiv
   date: '2022-01-01'
   link: https://doi.org/g8k2d3
-  image: /images/arxiv-logo.png
+  image: https://static.arxiv.org/static/arxiv.marxdown/0.1.0/images/arxiv-logo.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
