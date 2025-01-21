@@ -49,7 +49,7 @@ News, announcements, and props related to happenings in the lab.
 
 {%
   include feature.html
-  image="images/news.png"
+  image="images/news.jpg"
   link="news"
   title="Our News"
   flip=true

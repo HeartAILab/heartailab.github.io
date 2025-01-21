@@ -8,6 +8,11 @@ from pathlib import Path
 from dotenv import load_dotenv
 from urllib.request import Request, urlopen
 from util import *
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+import requests
+from bs4 import BeautifulSoup
 
 
 # load environment variables
@@ -119,28 +124,52 @@ log("Generating citations")
 
 def fetch_thumbnail_from_doi(doi):
     """
-    Fetch a thumbnail image URL for a given DOI by searching for figures or images in the associated metadata.
+    Fetch a thumbnail image URL for a given DOI by searching for figures or
+    images in the associated metadata using Selenium + local ChromeDriver.
     """
     try:
-        # Use CrossRef API or another service to get metadata
-        api_url = f"https://api.crossref.org/works/{doi}"
-        request = Request(url=api_url, headers={"Accept": "application/json"})
-        response = json.loads(urlopen(request).read())
+        article_url = "https://doi.org/" + doi
 
-        # Attempt to extract figure or image URL from metadata
-        figures = get_safe(response, "message.references", [])
-        if figures:
-            for figure in figures:
-                # Check for figure URLs or similar fields
-                image_url = get_safe(figure, "URL", None)
-                if image_url:
-                    return image_url
+        # Set up Selenium options for Chrome
+        options = Options()
+        # Example: run headless, or remove "--headless" if using Xvfb
+        # options.add_argument("--headless")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
 
-        # Fallback to None if no figures or images are found
-        return None
+        # Launch a local Chrome instance (not Remote)
+        driver = webdriver.Chrome(options=options)
+
+        # Load the article URL
+        driver.get(article_url)
+        driver.implicitly_wait(10)
+
+        # Try to find meta tags with property='og:image'
+        meta_tags = driver.find_elements(By.CSS_SELECTOR, "meta[property='og:image']")
+        vals = [tag.get_attribute("content") for tag in meta_tags]
+
+        # If Selenium didn’t find any images, fallback to requests + BeautifulSoup
+        if not vals:
+            response = requests.get(article_url, allow_redirects=True)
+            response.raise_for_status()
+            soup = BeautifulSoup(response.text, 'html.parser')
+            meta_tag = soup.find("meta", property="og:image")
+            vals = [meta_tag['content']] if meta_tag else []
+
+        if not vals:
+            # first image in the article
+            img_tags = driver.find_elements(By.TAG_NAME, "img")
+            vals = [tag.get_attribute("content") for tag in img_tags]
+
+        driver.quit()
+        return vals[0] if vals else "/images/logo.svg"
+
     except Exception as e:
-        log(f"Error fetching thumbnail for DOI {doi}: {e}", level="WARNING")
-        return None
+        print(f"Error fetching thumbnail: {e}")
+        return  "/images/logo.svg"
+
+
 
 # list of new citations
 citations = []
@@ -185,7 +214,7 @@ for index, source in enumerate(sources):
         doi = _id.split(":", 1)[-1]  # Extract DOI value
         thumbnail = fetch_thumbnail_from_doi(doi)
         if thumbnail:
-            citation["thumbnail"] = thumbnail
+            citation["image"] = thumbnail
 
     # preserve fields from input source, overriding existing fields
     citation.update(source)
