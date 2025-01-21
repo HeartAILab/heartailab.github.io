@@ -7,7 +7,7 @@
   publisher: Nature Reviews Cardiology
   date: '2024-11-19'
   link: https://doi.org/g8wggk
-  image: /images/share.png
+  image: https://media.springernature.com/m685/springer-static/image/art%3A10.1038%2Fs41569-024-01105-y/MediaObjects/41569_2024_1105_Fig1_HTML.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -27,7 +27,7 @@
   publisher: International Journal of Cardiology
   date: '2024-08-01'
   link: https://doi.org/g8k2dn
-  image: /images/share.png
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0167527324X00133-cov150h.gif
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: sources.py
@@ -51,7 +51,7 @@
   publisher: Clinical Research in Cardiology
   date: '2024-04-02'
   link: https://doi.org/g8k2dp
-  image: /images/share.png
+  image: https://static-content.springer.com/image/art%3A10.1007%2Fs00392-024-02433-2/MediaObjects/392_2024_2433_Figa_HTML.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -83,7 +83,7 @@
   publisher: Journal of the American Medical Informatics Association
   date: '2022-11-30'
   link: https://doi.org/gr6zc8
-  image: /images/share.png
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jamia/30/2/10.1093_jamia_ocac225/1/m_ocac225f1.jpeg?Expires=1799953423&Signature=QdSsDLML~FKhrGro0-yTaDywluix1byAr7GSUSXO6s8g-433g6ueGUBM21mp0adcCW9YjW9SVOV6NkUncw5Y~BZUFFniOcHPaqMcrBSyBJJg-iq1gGsm46q7doQ-63ldqST28I66c2T~sOAdxX3Wh7N4X0tQXzf~B7h2aKjyDuY62SLPNogZgPB9~oiy69xjZiJRfXod~C4L0B6BcpIrMKOS5Ij1s~MU2oUMDE28n2yOtRVqnZp8z~iznPZvlFliH7LjIMZMOhx4tsYo2DbWQijsOjQvTuVt-pk-J75cfGuQUrJ4zx5pFoGJHHU-~ttLBZAAU5gDK-BNRnObgLEEzg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -103,7 +103,7 @@
   publisher: Cold Spring Harbor Laboratory
   date: '2023-09-13'
   link: https://doi.org/g8k2ds
-  image: /images/share.png
+  image: https://www.medrxiv.org/sites/default/files/images/medrxiv_logo_homepage7-5-small-test-up.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -118,7 +118,7 @@
   publisher: Journal of the American Medical Informatics Association
   date: '2023-02-21'
   link: https://doi.org/g8k2dt
-  image: /images/share.png
+  image: https://oup.silverchair-cdn.com/oup/backfile/Content_public/Journal/jamia/30/5/10.1093_jamia_ocad016/1/m_ocad016f1.jpeg?Expires=1799959487&Signature=uRgt6N3wMzIJWo66UiVtj0wJXUCKrZhvoUtYxfmTbJ1kL4IK-SAiKGgbJV5NNQw-ED5KKN8wp1rJ-Cn2rsDn688QXsAyEIE8SHRTQmdsP2utpL0k-J~As4riXRvzK~yWALrR0PIGddeD~7mZIRDs6WYXMLu2UQgEXWOfBxW1lS8jkDb~cutsn00a8FuGUvyunH7I5FBiObb3c7EMZDshesB7hQhlw~dEXqgGKfibw0~7yNbY5qbCftg2ctPMQNlglUU5jIi7YrKctwK7sMJKvM5UNLTvi7M8a~BQq~W8QH4vM3965R08Zn0Hmp2g2ms4IBemzh1q~5PiyhO-MuGRUA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -138,7 +138,7 @@
   publisher: JAMA Cardiology
   date: '2023-11-01'
   link: https://doi.org/gtc4km
-  image: /images/share.png
+  image: https://cdn.jamanetwork.com/ama/content_public/journal/cardiology/939258/hrv230003t1_1714758634.77315.png?Expires=2147483647&Signature=U-zwe8WZA6F7LUks3hD77gZPTBPoJLCVrYC~kyDNGasjeYFU22OpqQWLv836oST0f4BsCyerhIr8UIegQQV1UsrzUKndT~lexKHfXYevSszbfA8SYKfNY-O40XpnP68UVMLpTy4kJGK5fzxC58lx6iaZDWBneAmvP16LluLu-Sbx1BwJUWtHH~EZZTaC49vkyS7y1t~wXts--8dQIhsajZK35lhaBmTBY1~XW5nGXFjR1TkhXCWISz8oIA95co3uqMcdjr43D5~X393zuAYG5e3GL3EG5RuPpsxDK8CU82V6o~n~UgsuoQs4jdHaST7Lief2xrL1cmZ0I9ypZVWarg__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -154,7 +154,7 @@
   publisher: Bioengineering
   date: '2023-05-05'
   link: https://doi.org/g8k2dv
-  image: /images/share.png
+  image: https://pub.mdpi-res.com/bioengineering/bioengineering-10-00556/article_deploy/html/images/bioengineering-10-00556-g001-550.jpg?1683280423
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -182,7 +182,7 @@
   publisher: Journal of the American Society of Echocardiography
   date: '2023-11-01'
   link: https://doi.org/g8k2dx
-  image: /images/share.png
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S0894731722X00126-cov150h.gif
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -206,7 +206,7 @@
   publisher: Cold Spring Harbor Laboratory
   date: '2023-06-25'
   link: https://doi.org/g8k2dz
-  image: /images/share.png
+  image: https://www.medrxiv.org/sites/default/files/images/medrxiv_logo_homepage7-5-small-test-up.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -232,7 +232,7 @@
   publisher: JAMA Cardiology
   date: '2022-10-01'
   link: https://doi.org/gsn9d4
-  image: /images/share.png
+  image: https://cdn.jamanetwork.com/ama/content_public/journal/cardiology/939006/hoi220030t1_1664228025.76566.png?Expires=2147483647&Signature=SYjo9~~oWdT4qBY2EHhL4HrJjI5B7kIFW4s~uXWXYI6lsW-5JKO7Rq5yJwgucdgP7gMilCj1yJRyDJSe1bXa9cXb7E6G-0mlHASNXFJe2BI6352RksSE3dtrTRzMxKd9TZ1FQdUIkygUuVYs7ZA7ZKZd~TMyvRe2E0ANZGffCi4uyEitjMDd5ruFfOiKQXYggMmtG-r1TgIx~KVBm7LQ~2~nXD9WPFQPkpQduxXAR3YeYg6IJ7fUyoeAXF3UJwIO0a0AZkRDWeEaU6UbunP35U21xSoddDFAbJzvO0Nc9iyfFB3WznZrFccdDR2-smurEx1VHjffrc0Yz-ecKva7UA__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -292,7 +292,7 @@
   publisher: ASAIO Journal
   date: '2022-11-28'
   link: https://doi.org/g8k2d4
-  image: /images/share.png
+  image: https://images.journals.lww.com/asaiojournal/SocialThumb.00002480-202212000-00012.F1.jpeg
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -306,7 +306,7 @@
   publisher: Journal of Nuclear Cardiology
   date: '2022-06-01'
   link: https://doi.org/gr3qsx
-  image: /images/share.png
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S1071358122X29036-cov150h.gif
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -320,7 +320,7 @@
   publisher: 'Circulation: Heart Failure'
   date: '2022-01-01'
   link: https://doi.org/g8k2d6
-  image: /images/share.png
+  image: https://www.ahajournals.org/cms/asset/e07586c7-dc71-4d12-a8b5-1cb95de46f2d/circheartfailure.2022.15.issue-1.largecover.jpg
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -334,7 +334,7 @@
   publisher: JAMA Cardiology
   date: '2022-05-01'
   link: https://doi.org/gpv88b
-  image: /images/share.png
+  image: https://cdn.jamanetwork.com/images/logos/Cardiology.png
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -349,7 +349,7 @@
   publisher: Journal of Nuclear Cardiology
   date: '2021-04-01'
   link: https://doi.org/g8k2d7
-  image: /images/share.png
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S1071358121X28024-cov150h.gif
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -376,7 +376,7 @@
   publisher: Radiology
   date: '2021-04-01'
   link: https://doi.org/ghr8q5
-  image: /images/share.png
+  image: https://pubs.rsna.org/na101/home/literatum/publisher/rsna/journals/content/radiology/2021/radiol.2021.299.issue-1/radiol.2021.299.issue-1/20210322/radiol.2021.299.issue-1.cover.jpg
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -390,7 +390,7 @@
   publisher: CASE
   date: '2020-08-01'
   link: https://doi.org/g8k2d8
-  image: /images/share.png
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2468644120300608-fx1.jpg
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -418,7 +418,7 @@
   publisher: 'JACC: Heart Failure'
   date: '2019-08-01'
   link: https://doi.org/g8k2d9
-  image: /images/share.png
+  image: https://ars.els-cdn.com/content/image/1-s2.0-S2213177918X00092-cov150h.gif
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -437,7 +437,7 @@
   publisher: JAMA Cardiology
   date: '2017-11-01'
   link: https://doi.org/gnwh59
-  image: /images/share.png
+  image: https://cdn.jamanetwork.com/ama/content_public/journal/cardiology/936578/hld170007f1.png?Expires=2147483647&Signature=Bg5DOBLTGTw70vqlRiir1jBy-EfuFeznnSm0a6TO6K95i0xcTvlxpSM7Zkmu0HP6ki4loga1NMPdAyd13Z5cRnvY~NGSSICGmILH11TP6dHZzzveHr2RLAWmSRx~VG5siAxJ5rbimVKtfSgizy2z5nz5LLkIwNCZ8dKQTz~Ipf75FAYHuzT3~jYCYGg8uLZQZrn-0rIz4YHkaiCxvRQxr1BirkYQ3flOreze~mH99xppi4jThuBoqcmEyAvNRlkf0kHdD3VUJ27Tgc48RU8uQn2N1QZBKOE4EsSBihlQzEJRGfDhtG6fQlyquIzVu8BS1u7za6nxNXNzp6Km9cHpXw__&Key-Pair-Id=APKAIE5G5CRDK6RD3PGA
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -451,7 +451,7 @@
   publisher: Texas Heart Institute Journal
   date: '2016-08-01'
   link: https://doi.org/g8k2fb
-  image: /images/share.png
+  image: https://thij.kglmeridian.com/coverimage?doc=/journals/thij/43/4/article-p287.xml&width=200
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
@@ -483,7 +483,7 @@
   publisher: American Journal of Medical Genetics Part A
   date: '2009-05-15'
   link: https://doi.org/fd7drq
-  image: /images/share.png
+  image: https://onlinelibrary.wiley.com/cms/asset/b5da16c4-aa00-4612-8d8d-01778746ced7/ajmg.a.v149a:6.cover.gif?trick=1737492589954
   orcid: 0000-0003-0599-7957
   ramsey-wehbe: true
   plugin: orcid.py
